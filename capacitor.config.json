@@ -1,0 +1,16 @@
+{
+  "appId": "com.ahmad.airstrike",
+  "appName": "AHMAD AIR STRIKE",
+  "webDir": "www",
+  "backgroundColor": "#02050f",
+  "android": { "allowMixedContent": false, "backgroundColor": "#02050f" },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1200,
+      "launchAutoHide": true,
+      "backgroundColor": "#02050f",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ahmad-air-strike",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AHMAD AIR STRIKE - offline arcade flying shooter (Capacitor Android app)",
+  "scripts": {
+    "assets": "capacitor-assets generate --android",
+    "sync": "cap sync android",
+    "apk": "cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.2.0",
+    "@capacitor/app": "^6.0.2",
+    "@capacitor/core": "^6.2.0",
+    "@capacitor/splash-screen": "^6.0.3"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^6.2.0"
+  }
+}
